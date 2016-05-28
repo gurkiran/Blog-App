@@ -14,7 +14,7 @@ app.use(methodOverride('_method'));
 
 var blogSchema = new mongoose.Schema({
 
-    // title: String,
+    title: String,
     image: String,
     body: String,
     createdDate : {type:Date , default: Date.now}
